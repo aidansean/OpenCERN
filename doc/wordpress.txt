@@ -1,0 +1,19 @@
+[mathjax]
+
+In 2014 the CMS experiment at CERN released their 2010 data to the public for analysis.  As a quick exercise I decided to analyse the dimuon mass spectrum to show that this could be done in a reasonable amount of time.
+
+<h3>Links</h3>
+
+<a href="http://www.aidansean.com/CERNOpenData/CMS">Live page</a>
+<a href="https://github.com/aidansean/CERNOpenDataCMS">GitHub repository</a>
+
+<h3>Overview</h3>
+
+The input file is the 2010 Run B comma separated values file.  The python script then produces mass spectra for same sign and opposite sign mass spectra and zooms in on the interesting regions.
+
+<h3>Challenges</h3>
+<dl>
+<dt><em>Challenge</em>: The main challenge was that this project was made as quickly as possible.</dt>
+
+<dd><em>Solution</em>: This project uses python and existing ROOT libraries for the maximal development speed.  The other data format available was using CMSSW and a virtual machine.  In principle using CMSSW should be straightforward, but I decided against using this because the software was already four years old and support would be minimal or non-existant, even to current CMS physicsts. (Resolved)</dd>
+</dl>
