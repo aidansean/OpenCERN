@@ -207,7 +207,7 @@ legend = ROOT.TLegend(x1,y1,x2,y2)
 legend.SetBorderSize(0)
 
 legend.AddEntry(h_mm_OSSS['full'], '#mu#mu data (all events)'      , 'pl')
-legend.AddEntry(h_mm_SS['full']  , '#mu#mu data (same sign events)', 'f' )
+legend.AddEntry(  h_mm_SS['full'], '#mu#mu data (same sign events)', 'f' )
 
 ##########################################################################################
 # Create labels                                                                          #
@@ -218,7 +218,7 @@ main_label.SetNDC()
 main_label.SetTextAlign(32)
 
 # Create a label for the lumi and CM energy
-lumi_label = ROOT.TLatex(0.86, 0.81, '#int L dt ~ 40 fb^{-1}')
+lumi_label = ROOT.TLatex(0.86, 0.81, '#int L dt ~ 36 pb^{-1}')
 lumi_label.SetNDC()
 lumi_label.SetTextAlign(31)
 
